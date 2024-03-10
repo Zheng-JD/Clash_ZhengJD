@@ -1,3 +1,5 @@
+以下是修改后的规则（错误已修正）：
+
 DOMAIN-SUFFIX,ic.adobe.io
 DOMAIN-SUFFIX,7sj9n87sls.adobe.io
 DOMAIN-SUFFIX,ij0gdyrfka.adobe.io
@@ -20,11 +22,6 @@ DOMAIN-SUFFIX,lcs-cops.adobe.io
 DOMAIN-SUFFIX,hbrt.adobe.com
 DOMAIN-SUFFIX,23ynjitwt5.adobe.io
 DOMAIN-SUFFIX,butler.adobe.com
-DOMAIN-SUFFIX,ic.adobe.io
-DOMAIN-SUFFIX,cc-api-data.adobe.io
-DOMAIN-SUFFIX,cctypekit.adobe.io
-DOMAIN-SUFFIX,lcs-cops.adobe.io
-DOMAIN-SUFFIX,aoorovjtha.adobe.io
 DOMAIN-SUFFIX,adobe.io
 DOMAIN-SUFFIX,adobe.com
 DOMAIN-SUFFIX,lmlicenses.wip4.adobe.com
@@ -78,6 +75,6 @@ DOMAIN,hl2rcv.adobe.com
 DOMAIN,ims-na1-prprod.adobelogin.com
 DOMAIN,na4r.services.adobe.com
 DOMAIN,na1r.services.adobe.com
-DOMAIN,*.adobe.io
-DOMAIN,*.adobe.com
+DOMAIN-SUFFIX,*.adobe.io
+DOMAIN-SUFFIX,*.adobe.com
 DOMAIN-KEYWORD,adobe
