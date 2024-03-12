@@ -4,7 +4,7 @@
 1. 打开订阅转换网站：https://sub.v1.mk
 2. 点击“进阶模式”
 3. 导入订阅链接（机场、自建的）
-4. 远程配置把这个仓库里面的“.ini”结尾的文件地址填上去
+4. 远程配置把这个仓库里面的“.ini”结尾的文件地址填上去  
 https://raw.githubusercontent.com/Zheng-JD/Clash_ZhengJD/main/ZhengJD_Rule.ini  
 https://raw.githubusercontent.com/Zheng-JD/Clash_ZhengJD/main/ZhengJD_Rule_icon.ini  
 6. 转换导入clash即可
