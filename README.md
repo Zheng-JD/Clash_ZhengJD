@@ -5,7 +5,7 @@
 2. 点击“进阶模式”
 3. 导入订阅链接（机场、自建的）
 4. 远程配置把这个仓库里面的“.ini”结尾的文件地址填上去
----
+
 ## Pro 配置
 https://raw.githubusercontent.com/Zheng-JD/Clash_ZhengJD/main/ZhengJD_Rule_Pro.ini  
 - ♻️ 自动选择
