@@ -6,8 +6,6 @@
 3. 导入订阅链接（机场、自建的）
 4. 远程配置把这个仓库里面的“.ini”结尾的文件地址填上去
 ---
-
-
 ## Pro 配置
 https://raw.githubusercontent.com/Zheng-JD/Clash_ZhengJD/main/ZhengJD_Rule_Pro.ini  
 - ♻️ 自动选择
@@ -19,10 +17,9 @@ https://raw.githubusercontent.com/Zheng-JD/Clash_ZhengJD/main/ZhengJD_Rule_Pro.i
 - 🎯 全球直连
 - 🛑 广告拦截
 - 🐟 漏网之鱼
-- 香港节点
-- 日本节点
-- 美国节点
-- 台湾节点
-- 狮城节点
-- 韩国节点
-
+- 🇭🇰 香港节点
+- 🇯🇵 日本节点
+- 🇺🇸 美国节点
+- 🇹🇼 台湾节点
+- 🇸🇬 狮城节点
+- 🇰🇷 韩国节点
