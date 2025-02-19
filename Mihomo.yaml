@@ -1,0 +1,321 @@
+proxy-groups:
+  - name: 节点选择
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
+    type: select
+    proxies:
+      - 自动选择
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 美国节点
+      - 韩国节点
+      - DIRECT
+  - name: 自动选择
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png
+    type: url-test
+    include-all: true
+    interval: 300
+    tolerance: 50
+  - name: 电报消息
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 狮城节点
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 美国节点
+      - 韩国节点
+      - DIRECT
+  - name: OpenAi
+    icon: https://raw.githubusercontent.com/luestr/IconResource/fc2dc45c8779cfba49e4c8ca9068ac16f5c728d7/App_icon/120px/ChatGPT.png
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 狮城节点
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 美国节点
+      - 韩国节点
+      - DIRECT
+  - name: YouTube
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 狮城节点
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 美国节点
+      - 韩国节点
+      - DIRECT
+  - name: 国际代理
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 美国节点
+      - 韩国节点
+      - DIRECT
+  - name: Google
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 美国节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+  - name: 微软服务
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png
+    type: select
+    proxies:
+      - 节点选择
+      - DIRECT
+      - 美国节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+      - 手动切换
+  - name: 全球直连
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 自动选择
+  - name: 广告拦截
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 漏网之鱼
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - DIRECT
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 美国节点
+      - 韩国节点
+
+  - name: 香港节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
+    include-all: true
+    filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 日本节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
+    include-all: true
+    filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 美国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
+    include-all: true
+    filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 台湾节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
+    include-all: true
+    filter: (?i)台|新北|彰化|TW|Taiwan
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 狮城节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
+    include-all: true
+    filter: (?i)新加坡|坡|狮城|SG|Singapore
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 韩国节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
+    include-all: true
+    filter: (?i)KR|Korea|KOR|首尔|韩|韓
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: GLOBAL
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
+    include-all: true
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 电报消息
+      - OpenAi
+      - 油管视频
+      - 国际代理
+      - Google
+      - 微软服务
+      - 全球直连
+      - 广告拦截
+      - 漏网之鱼
+      - 香港节点
+      - 日本节点
+      - 美国节点
+      - 台湾节点
+      - 狮城节点
+      - 韩国节点
+
+rule-providers:
+  Direct:
+    url: https://raw.githubusercontent.com/Zheng-JD/Clash_ZhengJD/main/Direct.list
+    path: ./ruleset/Direct.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Direct:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/115/115.list
+    path: ./ruleset/115.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Direct:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/WeType/WeType.list
+    path: ./ruleset/WeType.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Direct:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/WeChat/WeChat.list
+    path: ./ruleset/WeChat.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Direct:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list
+    path: ./ruleset/ChinaMax.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Direct:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/Direct.list
+    path: ./ruleset/Direct.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+
+  Reject:
+    url: https://raw.githubusercontent.com/Zheng-JD/Clash_ZhengJD/main/adobe_ps.list
+    path: ./ruleset/adobe_ps.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Reject:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AdvertisingLite/AdvertisingLite.list
+    path: ./ruleset/AdvertisingLite.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+
+  Google:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Google/Google.list
+    path: ./ruleset/Google.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+
+  YouTube:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/WeType/WeType.list
+    path: ./ruleset/YouTube.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+
+  Microsoft:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Microsoft/Microsoft.list
+    path: ./ruleset/Microsoft.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+
+
+  Telegram:
+    url: https://raw.githubusercontent.com/Zheng-JD/X/main/rule/TelegramPro.list
+    path: ./ruleset/TelegramPro.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+
+  OpenAi:
+    url: https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/AI.list
+    path: ./ruleset/AI.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+
+  Proxy:
+    url: https://raw.githubusercontent.com/Zheng-JD/Clash_ZhengJD/main/Daili.list
+    path: ./ruleset/Daili.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Proxy:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PikPak/PikPak.list
+    path: ./ruleset/PikPak.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Proxy:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Proxy/Proxy.list
+    path: ./ruleset/Proxy.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+
+rules:
+  - "RULE-SET,Direct,全球直连"
+  - "RULE-SET,Reject,广告拦截"
+  - "RULE-SET,YouTube,YouTube"
+  - "RULE-SET,Google,Google"
+  - "RULE-SET,Microsoft,微软服务"
+  - "RULE-SET,Telegram,电报消息"
+  - "RULE-SET,OpenAi,OpenAi"
+  - "RULE-SET,Proxy,国际代理"
+  - "RULE-SET,GoogleCN,全球直连"
+  - "MATCH,漏网之鱼"
