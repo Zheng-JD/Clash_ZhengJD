@@ -187,42 +187,42 @@ proxy-groups:
       - 韩国节点
 
 rule-providers:
-  Direct:
+  Direct1:
     url: https://raw.githubusercontent.com/Zheng-JD/Clash_ZhengJD/main/Direct.list
     path: ./ruleset/Direct.list
     behavior: classical
     interval: 86400
     format: text
     type: http
-  Direct:
+  Direct2:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/115/115.list
     path: ./ruleset/115.list
     behavior: classical
     interval: 86400
     format: text
     type: http
-  Direct:
+  Direct3:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/WeType/WeType.list
     path: ./ruleset/WeType.list
     behavior: classical
     interval: 86400
     format: text
     type: http
-  Direct:
+  Direct4:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/WeChat/WeChat.list
     path: ./ruleset/WeChat.list
     behavior: classical
     interval: 86400
     format: text
     type: http
-  Direct:
+  Direct5:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list
     path: ./ruleset/ChinaMax.list
     behavior: classical
     interval: 86400
     format: text
     type: http
-  Direct:
+  Direct6:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/Direct.list
     path: ./ruleset/Direct.list
     behavior: classical
@@ -230,14 +230,14 @@ rule-providers:
     format: text
     type: http
 
-  Reject:
+  Reject1:
     url: https://raw.githubusercontent.com/Zheng-JD/Clash_ZhengJD/main/adobe_ps.list
     path: ./ruleset/adobe_ps.list
     behavior: classical
     interval: 86400
     format: text
     type: http
-  Reject:
+  Reject2:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AdvertisingLite/AdvertisingLite.list
     path: ./ruleset/AdvertisingLite.list
     behavior: classical
@@ -286,36 +286,45 @@ rule-providers:
     format: text
     type: http
 
-  Proxy:
+  Proxy1:
     url: https://raw.githubusercontent.com/Zheng-JD/Clash_ZhengJD/main/Daili.list
     path: ./ruleset/Daili.list
     behavior: classical
     interval: 86400
     format: text
     type: http
-  Proxy:
+  Proxy2:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PikPak/PikPak.list
     path: ./ruleset/PikPak.list
     behavior: classical
     interval: 86400
     format: text
     type: http
-  Proxy:
+  Proxy3:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Proxy/Proxy.list
     path: ./ruleset/Proxy.list
     behavior: classical
     interval: 86400
     format: text
     type: http
+  
 
 rules:
-  - "RULE-SET,Direct,全球直连"
-  - "RULE-SET,Reject,广告拦截"
+  - "RULE-SET,Direct1,全球直连"
+  - "RULE-SET,Direct2,全球直连"
+  - "RULE-SET,Direct3,全球直连"
+  - "RULE-SET,Direct4,全球直连"
+  - "RULE-SET,Direct5,全球直连"
+  - "RULE-SET,Direct6,全球直连"
+  - "RULE-SET,Reject1,广告拦截"
+  - "RULE-SET,Reject2,广告拦截"
   - "RULE-SET,YouTube,YouTube"
   - "RULE-SET,Google,Google"
   - "RULE-SET,Microsoft,微软服务"
   - "RULE-SET,Telegram,电报消息"
   - "RULE-SET,OpenAi,OpenAi"
-  - "RULE-SET,Proxy,国际代理"
-  - "RULE-SET,GoogleCN,全球直连"
+  - "RULE-SET,Proxy1,国际代理"
+  - "RULE-SET,Proxy2,国际代理"
+  - "RULE-SET,Proxy3,国际代理"
+  - "GEOIP,CN,全球直连"
   - "MATCH,漏网之鱼"
