@@ -291,8 +291,8 @@ rule-providers:
     type: http
 
   X.Ai:
-    url: https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/AI.list
-    path: ./ruleset/AI.list
+    url: https://raw.githubusercontent.com/Zheng-JD/Clash_ZhengJD/refs/heads/main/grok.list
+    path: ./ruleset/grok.list
     behavior: classical
     interval: 86400
     format: text
@@ -338,6 +338,7 @@ rules:
   - "RULE-SET,Direct6,全球直连"
   - "RULE-SET,Reject1,广告拦截"
   - "RULE-SET,Reject2,广告拦截"
+  - "RULE-SET,X.Ai,X.Ai"
   - "RULE-SET,YouTube,YouTube"
   - "RULE-SET,Google,Google"
   - "RULE-SET,Microsoft,微软服务"
