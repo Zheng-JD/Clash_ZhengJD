@@ -42,7 +42,7 @@ proxy-groups:
       - 韩国节点
       - 狮城节点
       - 台湾节点
-    - name: OpenAi
+  - name: OpenAi
     icon: https://raw.githubusercontent.com/luestr/IconResource/fc2dc45c8779cfba49e4c8ca9068ac16f5c728d7/App_icon/120px/ChatGPT.png
     type: select
     proxies:
