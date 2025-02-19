@@ -23,3 +23,6 @@ https://raw.githubusercontent.com/Zheng-JD/Clash_ZhengJD/main/ZhengJD_Rule_Pro.i
 - 🇹🇼 台湾节点
 - 🇸🇬 狮城节点
 - 🇰🇷 韩国节点
+
+## mihomo party远程覆写配置
+https://raw.githubusercontent.com/Zheng-JD/Clash_ZhengJD/refs/heads/main/Mihomo_Party.yaml
