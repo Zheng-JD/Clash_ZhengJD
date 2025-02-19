@@ -31,7 +31,7 @@ proxy-groups:
       - 韩国节点
       - DIRECT
   - name: X.Ai
-    icon: 
+    icon: https://raw.githubusercontent.com/Zheng-JD/Clash_ZhengJD/refs/heads/main/Grok.png
     type: select
     proxies:
       - 节点选择
@@ -285,6 +285,14 @@ rule-providers:
   Telegram:
     url: https://raw.githubusercontent.com/Zheng-JD/X/main/rule/TelegramPro.list
     path: ./ruleset/TelegramPro.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+
+  X.Ai:
+    url: https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/AI.list
+    path: ./ruleset/AI.list
     behavior: classical
     interval: 86400
     format: text
