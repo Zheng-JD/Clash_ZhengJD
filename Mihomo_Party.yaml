@@ -257,15 +257,7 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-  Direct_all:
-    url: https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/refs/heads/main/ConfigFile/Clash/DirectRules.conf
-    path: ./ruleset/ChinaMax.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
     
-
   Reject_adobe:
     url: https://raw.githubusercontent.com/Zheng-JD/Clash_ZhengJD/main/adobe_ps.list
     path: ./ruleset/adobe_ps.list
