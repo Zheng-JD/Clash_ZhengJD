@@ -201,58 +201,80 @@ proxy-groups:
       - 韩国节点
 
 rule-providers:
-  Direct1:
+  Direct_myrule:
     url: https://raw.githubusercontent.com/Zheng-JD/Clash_ZhengJD/main/Direct.list
     path: ./ruleset/Direct.list
     behavior: classical
     interval: 86400
     format: text
     type: http
-  Direct2:
+  Direct_115:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/115/115.list
     path: ./ruleset/115.list
     behavior: classical
     interval: 86400
     format: text
     type: http
-  Direct3:
+  Direct_wetype:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/WeType/WeType.list
     path: ./ruleset/WeType.list
     behavior: classical
     interval: 86400
     format: text
     type: http
-  Direct4:
+  Direct_wechat:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/WeChat/WeChat.list
     path: ./ruleset/WeChat.list
     behavior: classical
     interval: 86400
     format: text
     type: http
-  Direct5:
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list
+  Direct_all:
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt
     path: ./ruleset/ChinaMax.list
     behavior: classical
     interval: 86400
     format: text
     type: http
-  Direct6:
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/Direct.list
+  Direct_apple:
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt
     path: ./ruleset/Direct.list
     behavior: classical
     interval: 86400
     format: text
     type: http
+  Direct_icloud:
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt
+    path: ./ruleset/Direct.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Direct_apple_all:
+    url: https://raw.githubusercontent.com/Zheng-JD/Clash_ZhengJD/refs/heads/main/apple_all.list
+    path: ./ruleset/Direct.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Direct_all:
+    url: https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/refs/heads/main/ConfigFile/Clash/DirectRules.conf
+    path: ./ruleset/ChinaMax.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+    
 
-  Reject1:
+  Reject_adobe:
     url: https://raw.githubusercontent.com/Zheng-JD/Clash_ZhengJD/main/adobe_ps.list
     path: ./ruleset/adobe_ps.list
     behavior: classical
     interval: 86400
     format: text
     type: http
-  Reject2:
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AdvertisingLite/AdvertisingLite.list
+  Reject_ad:
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
     path: ./ruleset/AdvertisingLite.list
     behavior: classical
     interval: 86400
@@ -301,29 +323,29 @@ rule-providers:
     type: http
 
   OpenAi:
-    url: https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/AI.list
+    url: https://gist.githubusercontent.com/ddgksf2013/cb4121e8b5c5d865cc949cb8120320c4/raw/Ai.yaml
     path: ./ruleset/AI.list
     behavior: classical
     interval: 86400
     format: text
     type: http
 
-  Proxy1:
+  Proxy_myrule:
     url: https://raw.githubusercontent.com/Zheng-JD/Clash_ZhengJD/main/Daili.list
     path: ./ruleset/Daili.list
     behavior: classical
     interval: 86400
     format: text
     type: http
-  Proxy2:
+  Proxy_PikPak:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PikPak/PikPak.list
     path: ./ruleset/PikPak.list
     behavior: classical
     interval: 86400
     format: text
     type: http
-  Proxy3:
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Proxy/Proxy.list
+  Proxy_all:
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt
     path: ./ruleset/Proxy.list
     behavior: classical
     interval: 86400
