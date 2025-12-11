@@ -132,7 +132,7 @@ proxy-groups:
   - name: 实验节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
     include-all: true
-    filter: (?i)实验
+    filter: (?i)实验|实验性
     type: url-test
     interval: 300
     tolerance: 50
