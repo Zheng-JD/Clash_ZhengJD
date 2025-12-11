@@ -3,7 +3,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
     type: select
     proxies:
-      - 自动选择
+      - 实验节点
       - 香港节点
       - 台湾节点
       - 狮城节点
@@ -11,7 +11,7 @@ proxy-groups:
       - 美国节点
       - 韩国节点
       - DIRECT
-  - name: 自动选择
+  - name: 实验节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png
     type: url-test
     proxies:
@@ -22,7 +22,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png
     type: select
     proxies:
-      - 自动选择
+      - 实验节点
       - 节点选择
       - 狮城节点
       - 香港节点
@@ -35,7 +35,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Zheng-JD/Clash_ZhengJD/refs/heads/main/Grok.png
     type: select
     proxies:
-      - 自动选择
+      - 实验节点
       - 节点选择
       - 美国节点
       - 香港节点
@@ -47,7 +47,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/luestr/IconResource/fc2dc45c8779cfba49e4c8ca9068ac16f5c728d7/App_icon/120px/ChatGPT.png
     type: select
     proxies:
-      - 自动选择
+      - 实验节点
       - 节点选择
       - 狮城节点
       - 香港节点
@@ -60,7 +60,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
     type: select
     proxies:
-      - 自动选择
+      - 实验节点
       - 节点选择
       - 狮城节点
       - 香港节点
@@ -73,7 +73,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png
     type: select
     proxies:
-      - 自动选择
+      - 实验节点
       - 节点选择
       - 香港节点
       - 台湾节点
@@ -86,7 +86,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png
     type: select
     proxies:
-      - 自动选择
+      - 实验节点
       - 节点选择
       - 美国节点
       - 香港节点
@@ -100,7 +100,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 自动选择
+      - 实验节点
       - 节点选择
       - 美国节点
       - 香港节点
@@ -114,7 +114,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
-      - 自动选择
+      - 实验节点
   - name: 广告拦截
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png
     type: select
@@ -125,7 +125,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
     type: select
     proxies:
-      - 自动选择
+      - 实验节点
       - 节点选择
       - DIRECT
       - 香港节点
@@ -190,7 +190,7 @@ proxy-groups:
     type: select
     proxies:
       - 节点选择
-      - 自动选择
+      - 实验节点
       - 电报消息
       - X.Ai
       - OpenAi
