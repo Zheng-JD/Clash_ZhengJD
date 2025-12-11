@@ -14,7 +14,8 @@ proxy-groups:
   - name: 自动选择
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png
     type: url-test
-    include-all: true
+    proxies:
+      - 实验节点
     interval: 300
     tolerance: 50
   - name: 电报消息
@@ -133,7 +134,14 @@ proxy-groups:
       - 日本节点
       - 美国节点
       - 韩国节点
-
+      
+  - name: 实验节点
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
+    include-all: true
+    filter: (?i)实验
+    type: url-test
+    interval: 300
+    tolerance: 50
   - name: 香港节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
     include-all: true
