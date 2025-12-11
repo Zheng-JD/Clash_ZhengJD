@@ -129,7 +129,6 @@ proxy-groups:
       - 日本节点
       - 美国节点
       - 韩国节点
-      
   - name: 实验节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
     include-all: true
