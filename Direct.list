@@ -2,3 +2,7 @@
 DOMAIN-KEYWORD,craft
 DOMAIN-KEYWORD,alipan
 DOMAIN,api.day.app
+DOMAIN-SUFFIX,craft.do
+DOMAIN,*.craft.do
+DOMAIN,res.craft.do
+PROCESS-NAME,Craft.exe
