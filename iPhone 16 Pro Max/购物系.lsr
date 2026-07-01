@@ -1,4 +1,4 @@
-# 包含淘宝、闲鱼、支付宝、拼多多、什么值得买、慢慢买App分流规则
+# 包含淘宝、闲鱼、支付宝、拼多多、什么值得买、慢慢买、京东App分流规则
 
 #App：淘宝
 # UpdateTime: 2026-06-30 08:52:23
@@ -277,3 +277,28 @@ IP-CIDR, 182.243.27.224/32, no-resolve
 IP-CIDR, 203.209.243.104/32, no-resolve
 IP-CIDR, 203.209.243.148/32, no-resolve
 IP-CIDR, 203.209.243.228/32, no-resolve
+
+# App：京东
+# UpdateTime: 2026-06-30 08:52:23
+# RuleCount: 21
+DOMAIN-SUFFIX, 300hu.com
+DOMAIN-SUFFIX, 360buyimg.com
+DOMAIN-SUFFIX, jd.com
+DOMAIN-SUFFIX, m.jd.com
+IP-CIDR, 36.110.181.105/32, no-resolve
+IP-CIDR, 36.110.181.150/32, no-resolve
+IP-CIDR, 39.156.61.248/32, no-resolve
+IP-CIDR, 39.156.62.118/32, no-resolve
+IP-CIDR, 39.156.62.242/32, no-resolve
+IP-CIDR, 101.124.19.122/32, no-resolve
+IP-CIDR, 106.39.169.89/32, no-resolve
+IP-CIDR, 111.13.24.98/32, no-resolve
+IP-CIDR, 111.13.29.201/32, no-resolve
+IP-CIDR, 111.206.228.248/32, no-resolve
+IP-CIDR, 120.52.83.22/32, no-resolve
+IP-CIDR, 121.226.221.244/32, no-resolve
+IP-CIDR, 123.182.186.22/32, no-resolve
+IP-CIDR, 123.182.186.137/32, no-resolve
+IP-CIDR, 123.182.186.222/32, no-resolve
+IP-CIDR, 123.182.190.22/32, no-resolve
+IP-CIDR, 123.182.190.222/32, no-resolve
