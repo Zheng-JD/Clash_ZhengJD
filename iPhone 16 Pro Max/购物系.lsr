@@ -1,0 +1,279 @@
+# 包含淘宝、闲鱼、支付宝、拼多多、什么值得买、慢慢买App分流规则
+
+#App：淘宝
+# UpdateTime: 2026-06-30 08:52:23
+# RuleCount: 124
+DOMAIN, rcs.cmpassport.com
+DOMAIN, ntp.ynuf.aliapp.org
+DOMAIN-SUFFIX, m.taobao.com
+DOMAIN-SUFFIX, ele.me
+IP-CIDR, 36.147.4.137/32, no-resolve
+IP-CIDR, 36.147.4.138/32, no-resolve
+IP-CIDR, 36.147.15.205/32, no-resolve
+IP-CIDR, 36.147.15.237/32, no-resolve
+IP-CIDR, 36.147.19.146/31, no-resolve
+IP-CIDR, 36.147.19.215/32, no-resolve
+IP-CIDR, 36.147.34.66/32, no-resolve
+IP-CIDR, 36.147.34.68/32, no-resolve
+IP-CIDR, 36.147.37.179/32, no-resolve
+IP-CIDR, 36.147.37.180/32, no-resolve
+IP-CIDR, 36.147.60.130/32, no-resolve
+IP-CIDR, 39.130.141.1/32, no-resolve
+IP-CIDR, 39.130.141.2/31, no-resolve
+IP-CIDR, 39.130.141.4/32, no-resolve
+IP-CIDR, 39.130.141.40/32, no-resolve
+IP-CIDR, 39.130.141.147/32, no-resolve
+IP-CIDR, 39.130.141.148/32, no-resolve
+IP-CIDR, 39.130.156.219/32, no-resolve
+IP-CIDR, 39.130.156.243/32, no-resolve
+IP-CIDR, 39.130.156.244/32, no-resolve
+IP-CIDR, 39.130.166.6/31, no-resolve
+IP-CIDR, 39.130.166.8/32, no-resolve
+IP-CIDR, 39.130.166.95/32, no-resolve
+IP-CIDR, 39.130.166.228/31, no-resolve
+IP-CIDR, 49.79.227.130/32, no-resolve
+IP-CIDR, 49.79.227.196/32, no-resolve
+IP-CIDR, 58.221.74.1/32, no-resolve
+IP-CIDR, 59.82.9.19/32, no-resolve
+IP-CIDR, 59.82.9.31/32, no-resolve
+IP-CIDR, 59.82.9.39/32, no-resolve
+IP-CIDR, 59.82.9.137/32, no-resolve
+IP-CIDR, 59.82.9.165/32, no-resolve
+IP-CIDR, 59.82.9.183/32, no-resolve
+IP-CIDR, 59.82.9.203/32, no-resolve
+IP-CIDR, 59.82.9.207/32, no-resolve
+IP-CIDR, 59.82.9.210/32, no-resolve
+IP-CIDR, 59.82.9.222/32, no-resolve
+IP-CIDR, 59.82.9.227/32, no-resolve
+IP-CIDR, 59.82.9.248/31, no-resolve
+IP-CIDR, 59.82.14.190/32, no-resolve
+IP-CIDR, 59.82.23.220/32, no-resolve
+IP-CIDR, 59.82.29.217/32, no-resolve
+IP-CIDR, 59.82.29.219/32, no-resolve
+IP-CIDR, 59.82.31.143/32, no-resolve
+IP-CIDR, 59.82.31.144/31, no-resolve
+IP-CIDR, 59.82.43.15/32, no-resolve
+IP-CIDR, 59.82.43.31/32, no-resolve
+IP-CIDR, 59.82.43.88/32, no-resolve
+IP-CIDR, 59.82.43.210/32, no-resolve
+IP-CIDR, 59.82.120.12/32, no-resolve
+IP-CIDR, 59.82.120.47/32, no-resolve
+IP-CIDR, 59.82.120.151/32, no-resolve
+IP-CIDR, 59.82.120.213/32, no-resolve
+IP-CIDR, 59.82.120.217/32, no-resolve
+IP-CIDR, 59.82.120.242/32, no-resolve
+IP-CIDR, 59.82.121.33/32, no-resolve
+IP-CIDR, 59.82.122.127/32, no-resolve
+IP-CIDR, 59.82.122.151/32, no-resolve
+IP-CIDR, 106.11.226.16/32, no-resolve
+IP-CIDR, 106.11.226.18/32, no-resolve
+IP-CIDR, 106.11.226.20/32, no-resolve
+IP-CIDR, 106.11.226.34/32, no-resolve
+IP-CIDR, 106.11.226.38/32, no-resolve
+IP-CIDR, 106.11.226.57/32, no-resolve
+IP-CIDR, 106.11.226.100/32, no-resolve
+IP-CIDR, 106.11.226.104/31, no-resolve
+IP-CIDR, 106.11.226.114/32, no-resolve
+IP-CIDR, 106.11.226.120/32, no-resolve
+IP-CIDR, 106.11.226.134/32, no-resolve
+IP-CIDR, 106.11.226.142/32, no-resolve
+IP-CIDR, 106.11.226.149/32, no-resolve
+IP-CIDR, 106.11.226.158/32, no-resolve
+IP-CIDR, 106.11.226.175/32, no-resolve
+IP-CIDR, 106.11.226.179/32, no-resolve
+IP-CIDR, 106.11.226.181/32, no-resolve
+IP-CIDR, 106.11.226.189/32, no-resolve
+IP-CIDR, 106.11.226.222/32, no-resolve
+IP-CIDR, 106.11.226.236/32, no-resolve
+IP-CIDR, 106.11.226.241/32, no-resolve
+IP-CIDR, 106.11.232.21/32, no-resolve
+IP-CIDR, 106.11.232.126/32, no-resolve
+IP-CIDR, 106.11.232.154/32, no-resolve
+IP-CIDR, 106.11.232.157/32, no-resolve
+IP-CIDR, 106.11.232.249/32, no-resolve
+IP-CIDR, 116.55.234.55/32, no-resolve
+IP-CIDR, 182.242.60.116/31, no-resolve
+IP-CIDR, 182.242.60.122/32, no-resolve
+IP-CIDR, 182.242.60.124/31, no-resolve
+IP-CIDR, 182.242.60.126/32, no-resolve
+IP-CIDR, 182.242.81.16/31, no-resolve
+IP-CIDR, 182.242.82.200/30, no-resolve
+IP-CIDR, 182.242.82.251/32, no-resolve
+IP-CIDR, 182.242.82.252/32, no-resolve
+IP-CIDR, 182.242.89.195/32, no-resolve
+IP-CIDR, 182.242.89.251/32, no-resolve
+IP-CIDR, 182.242.89.252/32, no-resolve
+IP-CIDR, 182.242.90.3/32, no-resolve
+IP-CIDR, 182.242.90.5/32, no-resolve
+IP-CIDR, 182.242.90.6/32, no-resolve
+IP-CIDR, 182.242.90.8/32, no-resolve
+IP-CIDR, 203.119.204.54/32, no-resolve
+IP-CIDR, 203.119.204.102/32, no-resolve
+IP-CIDR, 203.119.204.132/32, no-resolve
+IP-CIDR, 203.119.204.195/32, no-resolve
+IP-CIDR, 203.119.213.60/32, no-resolve
+IP-CIDR, 203.119.238.35/32, no-resolve
+IP-CIDR, 203.119.238.48/32, no-resolve
+IP-CIDR, 203.119.238.70/32, no-resolve
+IP-CIDR, 203.119.238.118/32, no-resolve
+IP-CIDR, 203.119.238.163/32, no-resolve
+IP-CIDR, 203.119.238.233/32, no-resolve
+IP-CIDR, 203.119.238.234/32, no-resolve
+IP-CIDR, 203.119.238.246/32, no-resolve
+IP-CIDR, 203.119.238.248/32, no-resolve
+IP-CIDR, 203.209.243.8/32, no-resolve
+IP-CIDR, 203.209.243.15/32, no-resolve
+IP-CIDR, 203.209.243.27/32, no-resolve
+IP-CIDR, 203.209.243.98/32, no-resolve
+IP-CIDR, 223.109.146.130/32, no-resolve
+IP-CIDR, 223.109.195.134/32, no-resolve
+
+#App：闲鱼
+# UpdateTime: 2026-06-30 08:52:23
+# RuleCount: 30
+DOMAIN, umc.danuoyi.alicdn.com
+DOMAIN, vpp-license-proxy.aliyuncs.com
+DOMAIN, vod.cn-shanghai.aliyuncs.com
+DOMAIN, vod-newplayer.cn-hangzhou.log.aliyuncs.com
+DOMAIN, cloud-config-service.rtc.aliyuncs.com
+DOMAIN, tls-goofish.dingtalk.com
+DOMAIN, video.goofish.com
+DOMAIN, tbs-vsucai.cloudvideocdn.taobao.com
+DOMAIN, cloud.video.taobao.com
+DOMAIN-SUFFIX, alicdn.com
+DOMAIN-SUFFIX, pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX, cn-hangzhou.dualstack.log.aliyuncs.com
+DOMAIN-SUFFIX, m.taobao.com
+IP-CIDR, 36.147.3.131/32, no-resolve
+IP-CIDR, 36.147.37.181/32, no-resolve
+IP-CIDR, 39.130.141.1/32, no-resolve
+IP-CIDR, 39.130.141.2/32, no-resolve
+IP-CIDR, 39.130.156.215/32, no-resolve
+IP-CIDR, 39.130.156.243/32, no-resolve
+IP-CIDR, 39.130.156.244/32, no-resolve
+IP-CIDR, 39.130.166.6/31, no-resolve
+IP-CIDR, 39.130.166.229/32, no-resolve
+IP-CIDR, 59.82.9.204/32, no-resolve
+IP-CIDR, 59.82.113.36/32, no-resolve
+IP-CIDR, 59.82.121.196/32, no-resolve
+IP-CIDR, 106.11.25.3/32, no-resolve
+IP-CIDR, 106.11.226.38/32, no-resolve
+IP-CIDR, 111.62.167.226/32, no-resolve
+IP-CIDR, 223.109.146.163/32, no-resolve
+IP-CIDR, 223.109.195.143/32, no-resolve
+
+#App 拼多多
+# UpdateTime: 2026-06-30 08:52:23
+# RuleCount: 80
+DOMAIN, b6390578c09b4d260db826c0cc058674.rdt.cfogc.com
+IP-CIDR, 36.147.13.11/32, no-resolve
+IP-CIDR, 36.147.26.50/32, no-resolve
+IP-CIDR, 36.147.49.44/32, no-resolve
+IP-CIDR, 36.147.49.187/32, no-resolve
+IP-CIDR, 36.147.50.181/32, no-resolve
+IP-CIDR, 36.147.69.59/32, no-resolve
+IP-CIDR, 36.152.46.3/32, no-resolve
+IP-CIDR, 36.152.46.13/32, no-resolve
+IP-CIDR, 36.152.46.15/32, no-resolve
+IP-CIDR, 36.170.18.8/32, no-resolve
+IP-CIDR, 39.130.131.41/32, no-resolve
+IP-CIDR, 39.130.131.44/32, no-resolve
+IP-CIDR, 39.130.155.41/32, no-resolve
+IP-CIDR, 39.130.155.44/32, no-resolve
+IP-CIDR, 39.130.158.108/32, no-resolve
+IP-CIDR, 39.130.162.213/32, no-resolve
+IP-CIDR, 39.134.108.246/32, no-resolve
+IP-CIDR, 39.137.54.182/32, no-resolve
+IP-CIDR, 39.137.54.184/32, no-resolve
+IP-CIDR, 39.137.54.246/32, no-resolve
+IP-CIDR, 39.137.54.248/31, no-resolve
+IP-CIDR, 39.137.54.251/32, no-resolve
+IP-CIDR, 39.137.55.71/32, no-resolve
+IP-CIDR, 39.137.55.150/32, no-resolve
+IP-CIDR, 58.217.134.25/32, no-resolve
+IP-CIDR, 58.217.134.26/31, no-resolve
+IP-CIDR, 81.69.130.65/32, no-resolve
+IP-CIDR, 81.69.130.121/32, no-resolve
+IP-CIDR, 81.69.130.131/32, no-resolve
+IP-CIDR, 101.226.46.39/32, no-resolve
+IP-CIDR, 101.226.46.40/31, no-resolve
+IP-CIDR, 101.226.147.13/32, no-resolve
+IP-CIDR, 101.226.152.31/32, no-resolve
+IP-CIDR, 101.226.152.59/32, no-resolve
+IP-CIDR, 101.226.152.67/32, no-resolve
+IP-CIDR, 101.226.153.140/31, no-resolve
+IP-CIDR, 111.12.174.148/32, no-resolve
+IP-CIDR, 111.32.200.104/32, no-resolve
+IP-CIDR, 114.110.96.6/32, no-resolve
+IP-CIDR, 114.110.97.30/32, no-resolve
+IP-CIDR, 114.110.97.97/32, no-resolve
+IP-CIDR, 117.144.229.100/31, no-resolve
+IP-CIDR, 117.147.184.140/32, no-resolve
+IP-CIDR, 117.147.184.174/32, no-resolve
+IP-CIDR, 117.147.184.221/32, no-resolve
+IP-CIDR, 117.185.242.18/32, no-resolve
+IP-CIDR, 117.185.242.150/32, no-resolve
+IP-CIDR, 117.185.242.187/32, no-resolve
+IP-CIDR, 117.185.244.25/32, no-resolve
+IP-CIDR, 117.185.244.54/32, no-resolve
+IP-CIDR, 117.185.244.145/32, no-resolve
+IP-CIDR, 117.185.244.212/32, no-resolve
+IP-CIDR, 117.187.40.211/32, no-resolve
+IP-CIDR, 119.0.111.222/32, no-resolve
+IP-CIDR, 119.86.222.50/32, no-resolve
+IP-CIDR, 119.86.222.53/32, no-resolve
+IP-CIDR, 121.5.84.15/32, no-resolve
+IP-CIDR, 124.226.72.44/32, no-resolve
+IP-CIDR, 180.163.214.155/32, no-resolve
+IP-CIDR, 182.138.255.41/32, no-resolve
+IP-CIDR, 182.240.161.44/32, no-resolve
+IP-CIDR, 182.242.50.138/32, no-resolve
+IP-CIDR, 182.242.50.219/32, no-resolve
+IP-CIDR, 182.242.50.227/32, no-resolve
+IP-CIDR, 182.242.54.41/32, no-resolve
+IP-CIDR, 182.242.56.45/32, no-resolve
+IP-CIDR, 182.242.95.80/32, no-resolve
+IP-CIDR, 182.242.95.82/32, no-resolve
+IP-CIDR, 182.242.212.41/32, no-resolve
+IP-CIDR, 182.242.212.44/32, no-resolve
+IP-CIDR, 182.242.219.35/32, no-resolve
+IP-CIDR, 182.242.219.37/32, no-resolve
+IP-CIDR, 182.247.247.83/32, no-resolve
+IP-CIDR, 183.194.214.11/32, no-resolve
+IP-CIDR, 183.194.214.14/32, no-resolve
+IP-CIDR, 183.194.214.20/31, no-resolve
+IP-CIDR, 183.224.36.107/32, no-resolve
+IP-CIDR, 221.178.86.50/32, no-resolve
+IP-CIDR, 221.178.87.134/32, no-resolve
+
+# App：慢慢买
+# UpdateTime: 2026-06-30 08:52:23
+# RuleCount: 2
+DOMAIN-SUFFIX, detailroi.com
+IP-CIDR, 123.60.109.41/32, no-resolve
+
+# App：什么值得买
+# UpdateTime: 2026-06-30 08:52:23
+# RuleCount: 4
+DOMAIN, rcs.cmpassport.com
+DOMAIN-SUFFIX, smzdm.com
+DOMAIN-SUFFIX, zdmimg.com
+DOMAIN-SUFFIX, m.smzdm.com
+
+# App：支付宝
+# UpdateTime: 2026-06-30 08:52:23
+# RuleCount: 14
+DOMAIN, bailingual-assets.alipay.com
+IP-CIDR, 36.147.19.220/32, no-resolve
+IP-CIDR, 36.147.37.172/32, no-resolve
+IP-CIDR, 39.130.156.214/31, no-resolve
+IP-CIDR, 39.130.156.216/31, no-resolve
+IP-CIDR, 110.76.3.58/32, no-resolve
+IP-CIDR, 119.42.251.220/32, no-resolve
+IP-CIDR, 182.242.45.121/32, no-resolve
+IP-CIDR, 182.242.52.92/32, no-resolve
+IP-CIDR, 182.242.89.249/32, no-resolve
+IP-CIDR, 182.243.27.224/32, no-resolve
+IP-CIDR, 203.209.243.104/32, no-resolve
+IP-CIDR, 203.209.243.148/32, no-resolve
+IP-CIDR, 203.209.243.228/32, no-resolve
