@@ -1,0 +1,16 @@
+# UpdateTime: 2026-06-30 08:52:23
+# RuleCount: 14
+DOMAIN, bailingual-assets.alipay.com
+IP-CIDR, 36.147.19.220/32, no-resolve
+IP-CIDR, 36.147.37.172/32, no-resolve
+IP-CIDR, 39.130.156.214/31, no-resolve
+IP-CIDR, 39.130.156.216/31, no-resolve
+IP-CIDR, 110.76.3.58/32, no-resolve
+IP-CIDR, 119.42.251.220/32, no-resolve
+IP-CIDR, 182.242.45.121/32, no-resolve
+IP-CIDR, 182.242.52.92/32, no-resolve
+IP-CIDR, 182.242.89.249/32, no-resolve
+IP-CIDR, 182.243.27.224/32, no-resolve
+IP-CIDR, 203.209.243.104/32, no-resolve
+IP-CIDR, 203.209.243.148/32, no-resolve
+IP-CIDR, 203.209.243.228/32, no-resolve
