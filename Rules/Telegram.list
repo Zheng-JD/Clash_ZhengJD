@@ -1,4 +1,14 @@
 # Telegram
+DOMAIN, app-analytics-services.com
+DOMAIN, firebase-settings.crashlytics.com
+IP-CIDR, 91.108.56.191/32, no-resolve
+IP-CIDR, 95.161.76.100/32, no-resolve
+IP-CIDR, 149.154.165.96/32, no-resolve
+IP-CIDR, 149.154.167.41/32, no-resolve
+IP-CIDR, 149.154.167.50/32, no-resolve
+IP-CIDR, 149.154.167.222/32, no-resolve
+IP-CIDR, 149.154.175.53/32, no-resolve
+IP-CIDR, 194.221.250.50/32, no-resolve
 #PROCESS-NAME,Telegram.exe
 #PROCESS-NAME,org.telegram.messenger
 DOMAIN-SUFFIX,t.me
