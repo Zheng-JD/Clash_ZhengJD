@@ -1,0 +1,35 @@
+# UpdateTime: 2026-06-30 08:52:23
+# RuleCount: 33
+DOMAIN, dldir1.qq.com
+DOMAIN-SUFFIX, weixin.com
+DOMAIN-SUFFIX, weixin.qq.com
+DOMAIN-SUFFIX, work.weixin.qq.com
+IP-CIDR, 14.17.5.184/32, no-resolve
+IP-CIDR, 36.155.182.51/32, no-resolve
+IP-CIDR, 36.155.189.92/32, no-resolve
+IP-CIDR, 36.155.189.94/32, no-resolve
+IP-CIDR, 101.91.33.67/32, no-resolve
+IP-CIDR, 101.226.142.220/32, no-resolve
+IP-CIDR, 101.226.142.222/32, no-resolve
+IP-CIDR, 112.53.42.160/32, no-resolve
+IP-CIDR, 112.60.24.158/32, no-resolve
+IP-CIDR, 112.60.24.249/32, no-resolve
+IP-CIDR, 116.128.171.168/32, no-resolve
+IP-CIDR, 117.89.176.107/32, no-resolve
+IP-CIDR, 117.89.177.75/32, no-resolve
+IP-CIDR, 117.185.25.64/32, no-resolve
+IP-CIDR, 117.185.25.112/32, no-resolve
+IP-CIDR, 120.233.17.249/32, no-resolve
+IP-CIDR, 120.233.18.106/32, no-resolve
+IP-CIDR, 120.233.19.59/32, no-resolve
+IP-CIDR, 120.233.109.191/32, no-resolve
+IP-CIDR, 120.241.200.148/32, no-resolve
+IP-CIDR, 175.27.0.253/32, no-resolve
+IP-CIDR, 180.111.196.173/32, no-resolve
+IP-CIDR, 182.254.116.117/32, no-resolve
+IP-CIDR, 182.254.118.119/32, no-resolve
+IP-CIDR, 183.2.134.209/32, no-resolve
+IP-CIDR, 183.2.144.11/32, no-resolve
+IP-CIDR, 183.47.104.75/32, no-resolve
+IP-CIDR, 183.60.15.100/32, no-resolve
+IP-CIDR, 221.181.97.254/32, no-resolve

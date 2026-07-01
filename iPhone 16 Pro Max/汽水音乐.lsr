@@ -1,0 +1,10 @@
+# UpdateTime: 2026-06-30 08:52:23
+# RuleCount: 8
+DOMAIN, beta-luna.douyin.com
+DOMAIN, p3-luna.douyinpic.com
+DOMAIN, v5-ex-luna.douyinvod.com
+DOMAIN-SUFFIX, bytedance.com
+DOMAIN-SUFFIX, qishui.com
+DOMAIN-SUFFIX, snssdk.com
+DOMAIN-SUFFIX, vegslb.com
+DOMAIN-SUFFIX, zijieapi.com

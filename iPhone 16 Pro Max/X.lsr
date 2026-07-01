@@ -1,0 +1,10 @@
+# UpdateTime: 2026-06-30 08:52:23
+# RuleCount: 8
+DOMAIN, app-analytics-services.com
+DOMAIN, twitter.com
+DOMAIN, amp-api-edge.apps.apple.com
+DOMAIN, firebase-settings.crashlytics.com
+DOMAIN, firebaselogging-pa.googleapis.com
+DOMAIN, abs.twimg.com
+DOMAIN, cm.g.doubleclick.net
+DOMAIN, googleads.g.doubleclick-cn.net
