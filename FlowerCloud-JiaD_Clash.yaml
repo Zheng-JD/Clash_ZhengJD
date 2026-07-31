@@ -269,7 +269,6 @@ rules:
   - "RULE-SET,Direct_wetype,China直连"
   - "RULE-SET,Direct_wechat,China直连"
   - "RULE-SET,Direct_all,China直连"
-  - "RULE-SET,GoogleSearch,Google"
   - "RULE-SET,Google,Google"
   - "RULE-SET,YouTube,Google"
   - "RULE-SET,Telegram,Telegram"
