@@ -26,19 +26,7 @@ proxy-groups:
       - 美国节点
       - 韩国节点
       - DIRECT
-  - name: Grok
-    icon: https://raw.githubusercontent.com/Zheng-JD/Clash_ZhengJD/refs/heads/main/Grok.png
-    type: select
-    proxies:
-      - 花云实验节点
-      - 手动选择
-      - 美国节点
-      - 香港节点
-      - 日本节点
-      - 韩国节点
-      - 新加坡节点
-      - 台湾节点
-  - name: OpenAi
+  - name: AI
     icon: https://raw.githubusercontent.com/luestr/IconResource/fc2dc45c8779cfba49e4c8ca9068ac16f5c728d7/App_icon/120px/ChatGPT.png
     type: select
     proxies:
@@ -155,7 +143,7 @@ proxy-groups:
       - 花云实验节点
       - 电报消息
       - Grok
-      - OpenAi
+      - AI
       - 国际代理
       - Google
       - China直连
@@ -199,13 +187,6 @@ rule-providers:
   Direct_all:
     url: https://johnshall.github.io/Shadowrocket-ADBlock-Rules-Forever/sr_top500_whitelist.conf
     path: ./ruleset/ChinaMax.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  Direct_icloud:
-    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt
-    path: ./ruleset/Direct.list
     behavior: classical
     interval: 86400
     format: text
@@ -258,16 +239,8 @@ rule-providers:
     format: text
     type: http
 
-  Grok:
-    url: https://raw.githubusercontent.com/Zheng-JD/Clash_ZhengJD/refs/heads/main/grok.list
-    path: ./ruleset/grok.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-
-  OpenAi:
-    url: https://gist.githubusercontent.com/ddgksf2013/cb4121e8b5c5d865cc949cb8120320c4/raw/Ai.yaml
+  AI:
+    url: https://cdn.jsdelivr.net/gh/VPSDance/ai-proxy-rules@main/rules/clash/AI.yaml
     path: ./ruleset/AI.list
     behavior: classical
     interval: 86400
@@ -275,7 +248,7 @@ rule-providers:
     type: http
 
   Ai:
-    url: https://ruleset.skk.moe/List/non_ip/ai.conf
+    url: https://cdn.jsdelivr.net/gh/VPSDance/ai-proxy-rules@main/rules/clash/all.yaml
     path: ./ruleset/AI.list
     behavior: classical
     interval: 86400
@@ -312,13 +285,12 @@ rules:
   - "RULE-SET,Direct_wetype,China直连"
   - "RULE-SET,Direct_wechat,China直连"
   - "RULE-SET,Direct_all,China直连"
-  - "RULE-SET,Grok,Grok"
   - "RULE-SET,GoogleSearch,Google"
   - "RULE-SET,Google,Google"
   - "RULE-SET,YouTube,Google"
   - "RULE-SET,Telegram,电报消息"
-  - "RULE-SET,OpenAi,OpenAi"
-  - "RULE-SET,Ai,OpenAi"
+  - "RULE-SET,AI,AI"
+  - "RULE-SET,Ai,AI"
   - "RULE-SET,Proxy_myrule,国际代理"
   - "RULE-SET,Proxy_PikPak,国际代理"
   - "RULE-SET,Proxy_all,国际代理"
