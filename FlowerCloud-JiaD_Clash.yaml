@@ -288,7 +288,6 @@ rules:
   - "RULE-SET,Google,Google"
   - "RULE-SET,YouTube,Google"
   - "RULE-SET,Telegram,Telegram"
-  - "RULE-SET,AI,AI"
   - "RULE-SET,Ai,AI"
   - "RULE-SET,Proxy_myrule,国际代理"
   - "RULE-SET,Proxy_PikPak,国际代理"
