@@ -13,7 +13,7 @@ proxy-groups:
       - DIRECT
     interval: 300
     tolerance: 50
-  - name: 电报消息
+  - name: Telegram
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png
     type: select
     proxies:
@@ -141,8 +141,7 @@ proxy-groups:
     proxies:
       - 手动选择
       - 花云实验节点
-      - 电报消息
-      - Grok
+      - Telegram
       - AI
       - 国际代理
       - Google
@@ -288,7 +287,7 @@ rules:
   - "RULE-SET,GoogleSearch,Google"
   - "RULE-SET,Google,Google"
   - "RULE-SET,YouTube,Google"
-  - "RULE-SET,Telegram,电报消息"
+  - "RULE-SET,Telegram,Telegram"
   - "RULE-SET,AI,AI"
   - "RULE-SET,Ai,AI"
   - "RULE-SET,Proxy_myrule,国际代理"
