@@ -203,13 +203,6 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-  Direct_apple:
-    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt
-    path: ./ruleset/Direct.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
   Direct_icloud:
     url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt
     path: ./ruleset/Direct.list
