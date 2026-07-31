@@ -223,14 +223,6 @@ rule-providers:
     format: text
     type: http
 
-  AI:
-    url: https://cdn.jsdelivr.net/gh/VPSDance/ai-proxy-rules@main/rules/clash/AI.yaml
-    path: ./ruleset/AI.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-
   Ai:
     url: https://cdn.jsdelivr.net/gh/VPSDance/ai-proxy-rules@main/rules/clash/all.yaml
     path: ./ruleset/AI.list
