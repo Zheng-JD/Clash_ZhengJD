@@ -84,12 +84,6 @@ proxy-groups:
       - DIRECT
       - 手动选择
       - 花云实验节点
-  - name: 广告拦截
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
   - name: 漏网之鱼
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
     type: select
@@ -165,7 +159,6 @@ proxy-groups:
       - 国际代理
       - Google
       - China直连
-      - 广告拦截
       - 漏网之鱼
       - 香港节点
       - 日本节点
@@ -227,21 +220,6 @@ rule-providers:
   Direct_apple_all:
     url: https://raw.githubusercontent.com/Zheng-JD/Clash_ZhengJD/refs/heads/main/apple_all.list
     path: ./ruleset/Direct.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-    
-  Reject_adobe:
-    url: https://raw.githubusercontent.com/Zheng-JD/Clash_ZhengJD/main/adobe_ps.list
-    path: ./ruleset/adobe_ps.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  Reject_ad:
-    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
-    path: ./ruleset/AdvertisingLite.list
     behavior: classical
     interval: 86400
     format: text
@@ -341,8 +319,6 @@ rules:
   - "RULE-SET,Direct_wetype,China直连"
   - "RULE-SET,Direct_wechat,China直连"
   - "RULE-SET,Direct_all,China直连"
-  - "RULE-SET,Reject_adobe,广告拦截"
-  - "RULE-SET,Reject_ad,广告拦截"
   - "RULE-SET,Grok,Grok"
   - "RULE-SET,GoogleSearch,Google"
   - "RULE-SET,Google,Google"
